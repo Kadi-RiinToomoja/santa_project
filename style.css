@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Inter:wght@400;500;700;800;900&display=swap');
+header .main-header {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 0 20px 0;
+  }
+
+header .header-title {
+    width: 100%;
+    height: 20%;
+    display: table;
+    background-color: #FAD4D8;
+}
+
+header h1 {
+    font-family: 'Carter One', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #2C9009;
+    line-height: 70px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.231);
+
+  }
+
+  .header-img {
+    width: 100%;
+    max-height: 55vh;
+  }
+
+  .main-text {
+    text-align: center;
+    margin: 3%;
+  }
+
+  .what-text {
+    font-family: 'Carter One', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 26px;
+  }
+
+  .description {
+    width: 60%;
+    margin: auto;
+    padding-top: 2%;
+    margin-bottom: 5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+  }
+
+  .gallery-image img {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .gallery-image {
+    -webkit-flex-basis: 250px;
+    -moz-flex-basis: 250px;
+    flex-basis: 250px;
+  
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+  }
+
+  .gallery-links {
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: space-around;
+    -o-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .post-header{
+    font-family: 'Carter One', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-top: 10%;
+
+  }
+
+  .link-button {
+    border: none;
+    margin-bottom: 20%;
+    margin-top: 10%;
+    background-color: #2C9009;
+    width: 250px;
+    height: 44px;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.231);
+  }
+
+  footer{
+    height: 15vh;
+    text-align: center;
+    background-color: #1B4B66;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #B6B6B6;
+    line-height: 15vh;
+    
+  }
+
+  
